@@ -10,7 +10,7 @@ email: mail@snehasish.net
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of 
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: snehasish, kumar, academic-website, portfolio-website  # add your own keywords or leave empty
 
@@ -290,8 +290,8 @@ scholar:
   query: "@*"
 
 badges: # Display different badges for your publications
-  altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
