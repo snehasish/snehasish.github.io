@@ -740,6 +740,16 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
+.blog {
+  max-width: 760px;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+
+  .post-content h2 {
+    margin-top: 2rem;
+  }
+}
+
 .post {
   .post-meta {
     color: var(--global-text-color-light);
